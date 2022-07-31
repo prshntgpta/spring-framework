@@ -1,0 +1,8 @@
+spring:
+  application.name: cbrconfigapi
+  cloud:
+    config:
+      enabled: true
+    uri: https://github.com/prshntgpta/spring-yml-configs/blob/main/spring-aop-logger/application.yml
+    secured:
+      uri: https://github.com/prshntgpta/spring-yml-configs/blob/main/spring-aop-logger/application.yml
